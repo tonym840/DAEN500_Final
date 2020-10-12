@@ -1,0 +1,7 @@
+myCourses <- c("AS2944", "AS2934", "AAEC3014", "AAEC3324", "MGT3304",
+               "AAEC3024", "AS4216", "AAEC2104", "GEOG2084")
+length(myCourses)
+myCourses[c(1, 2)]
+myCourses[c(3, 4)]
+sort(myCourses, decreasing = FALSE)
+sort(myCourses, decreasing = TRUE)
