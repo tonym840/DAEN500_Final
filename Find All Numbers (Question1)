@@ -1,0 +1,11 @@
+#program shall find all numbers within a specified range
+#that are divisible by 7, but are not a multiple of 5
+#demonstrate the program works by running the program for
+#range 2000 and 3200
+
+answer = []
+for number in range(2000, 3200):
+	if (number % 7 == 0) and (number % 5 != 0):
+			print(number, "is divisible by 7 and not by 5!")
+			answer.append(number)
+print(answer)
