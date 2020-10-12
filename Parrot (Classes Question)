@@ -1,0 +1,23 @@
+#program shall define a class with two methods
+#method 1 shall be getString (to get a string from console input)
+#method 2 shall be printString (to print string)
+#demonstrate the code works with 3 test inputs
+#tests must be all uppercase, all lower case, and a mix of
+# upper and lower (title case)
+
+class Parrot:
+	def __init__(self):
+		"""initial attributes to describe the words"""
+		self.words = ""
+
+	def getString(self):
+		"""return a string from console input"""
+		self.words = input(str("Give Polly something to say:"))
+
+	def printString(self):
+		"""print the string"""
+		print(self.words.upper())
+
+my_first_parrot = Parrot()
+my_first_parrot.getString()
+my_first_parrot.printString()
