@@ -1,0 +1,25 @@
+(a)	Describe:  What is difference between Multiple Regression and Logistic Regression? What circumstances might determine which to use? (10 points)
+(b)	Demonstrate:  Using any data, and any tool set you’ve learned about, show differences (20 points)
+
+SUGGESTION:  may be solved using RapidMiner, or other toolsets, BOTH TO ANALYZE AND TO VISUALIZE REGRESSION DIFFERENCES..  
+Step 1: Perform a quick search of the UCIS public data archive, a well-curated site which you already have seen as part of your introductory RapidMiner training.  
+Step 2:  Pick a dataset you find interesting, input dataset into regression tools you’ve chosen.
+Step 3:  Run  the dataset (may be a significant subset, if the dataset is very large) first. a Multiple Regression and then a Logistic Regression, 
+       .and use visualizations to  demonstrate the conceptual answers you provided for 5.(a).
+
+
+a) Multiple Regression is a statistics technique where several explanatory variables are used to predict the outcome of a response variable (using a, b, 
+and c to find x). Logistic regression is a different statistics technique that explains the relationship of one binary variable to one more other 
+quantifiable variables (if a car having an automatic transmission affects milage, price, and/or maintenance cost). The difference between the two are 
+that multiple regression uses many variables to predict the value of another, whereas logistic regression checks how one binary variable affects other 
+quantitative variables.
+
+b) 
+I chose to use census data from the UCI website (second on most popular Data sets since 2007). I did my best to work the regressions in RapidMiner Studio, 
+but was unable to get anything more than an intercept for the correlation between Salary, Age, and Years in School. I reviewed the videos on RapidMiner for
+both the Multiple Regression and Logistic Regression for hours and was unable to find a reason for why my data was not working. I was eventually able to 
+get a visualization for the multiple regression in Excel (a chart). For some reason, the census data I chose to work with would not work well with the 
+RapidMiner Studio visualization. If I had found two good visualizations for Multiple Regression and Logistic Regression, the graphs would look very different.
+The Multiple Regression graph would have a straight diagonal line between points (showing best fit), while the Logistic Regression would have two 
+horizontal lines (usually at 1 and 0) connected by a curved line showing the likelihood of seeing the sample values instead of minimizing the sum 
+of squared errors.
