@@ -1,0 +1,21 @@
+1)	What is a component – Provide a description (5 points)
+2)	Principal Component Analysis – Provide a description.(5 points)
+3)	Provide and explain an specific example of a Principal Component Analysis(15 points)
+
+
+1)	What is a Component?
+
+		A component in PCA is a new variable formed by a combination of predictor variables.
+
+
+2)	What is Principal Component Analysis?
+
+	Principal Component Analysis is a method of analyzing data that combines variables into 	new variables to simplify further analysis.
+
+3)	Provide and explain a specific example of a Principal Component Analysis.
+
+			For example, say a popular fast-food restaurant called McHardy’s wants to see how 	often each item on their menu is ordered over a month in the state of Virginia. If 	McHardy’s showed an excel chart that only showed menu items and how many times 	they were ordered, it is likely that the list would be long and hard to read. We can use 	PCA to make it easier.
+
+			Instead of making a long list of specific menu items (like a Big Hardy, large fries, 	small drink), we can use PCA to funnel it into more general categories like burgers, 	drinks, sides, etc. From there, we can take that data and make general inferences of what 	Virginians as a group like. For example, if after the PCA we see that burgers are more 	often purchased than salads, we can say that “Virginians like burgers more than salads” 	and give that information to McHardy’s corporate to improve their business plan. 
+	
+			When we do the same measurements over time and compare them with other 	states, we can start discovering trends and make predictions of future market potential. 
